@@ -17,13 +17,13 @@ firebase.initializeApp({
   projectId: "messenger-app-react",
   storageBucket: "messenger-app-react.appspot.com",
   messagingSenderId: "1040626419703",
-  appId: "1:1040626419703:web:d2fcba261b0fdad62350f2"
+  appId: "1:1040626419703:web:d2fcba261b0fdad62350f2",
 });
 
 const routing = (
   <Router>
     <div id="routing-container">
-      <Route path="/login" component={Login} />
+      <Route path="/" component={Login} />
       <Route path="/signup" component={SignUp} />
       <Route path="/dashboard" component={Dashboard} />
     </div>
